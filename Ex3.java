@@ -1,44 +1,26 @@
 
 public class Ex3 {
 
-	public static void main(String[] args) {
-		byte b; // -128 ~ 127 	1byte : 8bit
-		b = -128;
-		System.out.println(b);
+	public static void main(String [] args) {
+		int i = 0;
+		i = i + 1;
+		System.out.println(i);
 		
-		b = 127;
-		System.out.println(b);
+		i++;
+		System.out.println(i);
 		
-		char c; // 0 ~ 65535	unicode 2byte
-		c = 0;
-		System.out.println(c);
+		i = i + 1;
+		System.out.println(i);
 		
-		c = 65535;
-		System.out.println(c);
+		int j = 0;
+		j++;
+		System.out.println(j);
 		
-		short s; // 2byte
-		int i; // -2100000000 ~ 2100000000	4byte
+		j++;
+		System.out.println(j);
 		
-		long l; // 8byte
-		l = 1000000l;
+		j++;
+		System.out.println(j);
 		
-		c = 65;
-		System.out.println(c);
-		
-		c = 97;
-		System.out.println(c);
-		
-		c = 66;
-		System.out.println(c);
-		
-		c = 98;
-		System.out.println(c);
-		
-		c = 'D';
-		System.out.println(c);
-		
-		int ii = c;
-		System.out.println(ii);
 	}
-
 }
